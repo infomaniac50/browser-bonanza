@@ -1,0 +1,9 @@
+firefox:
+  image: infomaniac50/docker-firefox
+  container_name: firefox
+  extends:
+    file: common.yml
+    service: x11
+  user: developer
+  environment:
+    HOME: /home/developer
