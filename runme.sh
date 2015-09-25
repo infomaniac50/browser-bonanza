@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose run --rm firefox
+docker-compose run --rm browser_bonanza

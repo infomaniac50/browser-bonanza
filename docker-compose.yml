@@ -1,6 +1,6 @@
-firefox:
-  image: infomaniac50/docker-firefox
-  container_name: firefox
+browser_bonanza:
+  image: infomaniac50/browser-bonanza
+  container_name: browser_bonanza
   extends:
     file: common.yml
     service: x11
